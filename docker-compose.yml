@@ -22,4 +22,4 @@ services:
       - mongo
     environment: 
       - DB_HOST=mongodb://mongo:27017/posts
-    #command: node app/seeds/seed.js  
+    #command: node app/seeds/seed.js
