@@ -28,3 +28,8 @@ EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 # we get this from the official image of nginx
+
+# docker run -d -v /c/Users/ahskhan/eng89_docker/app1:/usr/share/nginx/html -p 90:80 ahskhan/mynginx
+
+
+# docker run -d -v /c/Users/ahskhan/eng89_docker/app1:/var/log/nginx -p 70:80 ahskhan/mynginx  
