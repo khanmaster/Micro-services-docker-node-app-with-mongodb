@@ -23,3 +23,7 @@ services:
     environment: 
       - DB_HOST=mongodb://mongo:27017/posts
     #command: node app/seeds/seed.js
+    # Install kompose using chocolatey
+# choco install kubernetes-kompose
+# Go to the same directory as your docker-compose file
+# kompose convert
